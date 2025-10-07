@@ -214,11 +214,14 @@ function checkActivation(data: ActivationState | null): data is ActivationState 
 }
 
 router.beforeEach((to, from, next) => {
+  // Skip activation check in production web environment
+  const isWebProduction = process.env.NODE_ENV === 'production' && !window.require;
+
   // 1. Vérification de l'activation
   const activationData = getActivationData();
-  const isActivated = checkActivation(activationData);
+  const isActivated = checkActivation(activationData) || isWebProduction;
 
-  // 2. Gestion de la page d'activation
+  // 2. Gestion de la page d'activation (skip en production web)
   if (!isActivated) {
     return to.name === 'activation' ? next() : next({ name: 'activation' });
   }
