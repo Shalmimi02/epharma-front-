@@ -61,7 +61,7 @@ export default createStore({
     api_epharma_update: '',
     caisseAuthenticated: false,
     caisseConnected: '',
-    api_url: 'http:127.0.0.1:9090',
+    api_url: process.env.VUE_APP_API_URL || 'http://127.0.0.1:9090',
     superviseurApi: 'https://epharma-panel.srv557357.hstgr.cloud',
     // api_url: 'https://demo2.srv557357.hstgr.cloud',
     // superviseurApi: 'http://localhost:9099',
