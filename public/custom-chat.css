@@ -1,0 +1,26 @@
+/* custom-chat.css */
+.bp-widget-web {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+.bp-widget-web .bpw-chat-container {
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.bp-widget-web .bpw-from-bot .bpw-chat-bubble {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+/* Hide Botpress branding / "Powered by" footer */
+.bp-widget-web .bpw-powered,
+.bp-widget-web .bpw-powered-by,
+.bp-widget-web .bpw-botpress-powered,
+.bp-widget-web .bpw-branding,
+.bp-widget-web .bpw-branding-container,
+.bp-widget-web .bpw-logo,
+.bp-widget-web .bpw-footer .bpw-branding,
+.bp-widget-web .bpw-header .bpw-branding {
+  display: none !important;
+}

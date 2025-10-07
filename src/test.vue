@@ -1,0 +1,6 @@
+<template>
+    DÊPOT PHARMACEUTIQUE SAINT JEAN
+    CENTRE DU MARCHER DE NDJOLE
+    2000000
+    066460560
+</template>

@@ -1,0 +1,212 @@
+/* .Roboto-EP {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712; 
+} */
+
+body {
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  font-family: "Ubuntu", system-ui;
+
+
+  /* font-family: "Ubuntu Condensed", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+
+  /* color: #4d5e96; */
+  /* margin-top: 6rem; */
+}
+
+/* label, p, span, div {
+  font-size: 14px;
+} */
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+/* Styles des badges pour les quantités de produits */
+.badge-bleuqte {
+  background-color: #123a66;
+  color: white;
+}
+
+.badge-orangeqte {
+  background-color: #FFA07A;
+  color: black;
+}
+
+.badge-rougeqte {
+  background-color: #FFCCCB;
+  color: black;
+}
+
+.badge-grisqte {
+  background-color: #cecece;
+  color: black;
+}
+
+/* input, select {
+  padding-bottom: 18px !important;
+  background: #fafafa !important;
+  padding-top: 18px !important;  
+  border-bottom: 1px solid black !important; 
+  border-left: none !important; 
+  border-right: none !important; 
+  border-top: none !important;
+} */
+
+#padmin:hover,
+#pstock:hover,
+#pvente:hover,
+#pgestion:hover {
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#sousmenuestock {
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#imglogo2epharma {
+  width: 150px;
+}
+
+#contact {
+  width: 60%;
+  border-radius: 5px;
+}
+
+#descriptionepharma {
+  width: 60%;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#bordercontact {
+  border-left: solid 2px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: url(../../public/img/icons/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+}
+
+#iconCacherpassword {
+  width: 25px;
+  transform: translate(180px, -35px);
+  z-index: 10;
+  color: blue;
+  align-items: center;
+  cursor: pointer;
+}
+
+#iconMontrerpassword {
+  width: 25px;
+  transform: translate(180px, -35px);
+  z-index: 10;
+  color: blue;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+#tab {
+  box-shadow: 100px;
+}
+
+#div1 {
+  box-shadow: 100px;
+}
+
+#SelectMenue {
+  cursor: pointer;
+}
+
+#SelectMenue:hover {
+  opacity: 0.5;
+}
+
+#input1 {
+  width: 300px;
+}
+
+#input2 {
+  width: 300px;
+}
+
+#input3 {
+  width: 300px;
+}
+
+#input4 {
+  width: 300px;
+}
+
+
+.full-screen-dialog {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+}
+
+/* .full-screen-dialog .p-dialog-content {
+      height: calc(100vh - 4rem); 
+      overflow-y: auto;
+    } */
+
+.dashed-line {
+  border-top: 1px dashed #000;
+}
+
+
+.p-dialog-title {
+  font-size: 1.6rem;
+  color: #000 !important;
+  font-weight: 700 !important;
+  color: #0b508c !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 1rem !important;
+  margin: 0 0 20px !important;
+  display: block !important;
+}
+
+.p-dialog-header {
+  border-bottom: 4px solid rgb(11, 80, 140) !important;
+  /* border-bottom: none !important; */
+  padding: 3px !important;
+}
+
+.search-form {
+  border-bottom: 1px solid black !important; 
+  border-left: none !important; 
+  border-right: none !important; 
+  border-top: none !important; 
+  background: #fafafa !important;
+}
